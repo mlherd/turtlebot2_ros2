@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libSerialPort.so -o lib/libSerialPort.so CMakeFiles/SerialPort.dir/kobuki/SerialPort.cpp.o 

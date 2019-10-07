@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libKobukiBase.so -o lib/libKobukiBase.so CMakeFiles/KobukiBase.dir/kobuki/KobukiBase.cpp.o CMakeFiles/KobukiBase.dir/kobuki/SerialPort.cpp.o CMakeFiles/KobukiBase.dir/kobuki/Thread.cpp.o CMakeFiles/KobukiBase.dir/kobuki/Transport.cpp.o CMakeFiles/KobukiBase.dir/kobuki/Translator.cpp.o 

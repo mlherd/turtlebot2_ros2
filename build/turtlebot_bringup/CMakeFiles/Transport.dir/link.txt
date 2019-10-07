@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC   -shared -Wl,-soname,libTransport.so -o lib/libTransport.so CMakeFiles/Transport.dir/kobuki/Transport.cpp.o CMakeFiles/Transport.dir/kobuki/SerialPort.cpp.o 
