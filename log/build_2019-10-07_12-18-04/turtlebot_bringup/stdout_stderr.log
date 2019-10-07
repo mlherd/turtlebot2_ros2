@@ -1,0 +1,43 @@
+[ 15%] Built target kobuki
+[ 21%] Built target Transport
+[ 24%] Built target DockingController
+[ 28%] Built target Thread
+[ 31%] Built target SerialPort
+[ 45%] Built target Kobuki_impl
+[ 49%] Built target Translator
+[ 59%] Built target KobukiBase
+[35m[1mScanning dependencies of target turtlebot2[0m
+[35m[1mScanning dependencies of target Turtlebot[0m
+[ 77%] Built target kobukicwrapper
+[ 78%] [32mBuilding CXX object CMakeFiles/Turtlebot.dir/src/Turtlebot.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/src/turtlebot2.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/src/Turtlebot.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/JointState.hpp: No such file or directory
+ #include [01;31m[K<sensor_msgs/msg/JointState.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/JointState.hpp: No such file or directory
+ #include [01;31m[K<sensor_msgs/msg/JointState.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/JointState.hpp: No such file or directory
+ #include [01;31m[K<sensor_msgs/msg/JointState.hpp>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/Turtlebot.dir/src/Turtlebot.cpp.o] Error 1
+CMakeFiles/Turtlebot.dir/build.make:62: recipe for target 'CMakeFiles/Turtlebot.dir/src/Turtlebot.cpp.o' failed
+CMakeFiles/Makefile2:432: recipe for target 'CMakeFiles/Turtlebot.dir/all' failed
+make[1]: *** [CMakeFiles/Turtlebot.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/turtlebot2.dir/build.make:62: recipe for target 'CMakeFiles/turtlebot2.dir/src/turtlebot2.cpp.o' failed
+CMakeFiles/turtlebot2.dir/build.make:86: recipe for target 'CMakeFiles/turtlebot2.dir/src/Turtlebot.cpp.o' failed
+make[2]: *** [CMakeFiles/turtlebot2.dir/src/turtlebot2.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/turtlebot2.dir/src/Turtlebot.cpp.o] Error 1
+CMakeFiles/Makefile2:469: recipe for target 'CMakeFiles/turtlebot2.dir/all' failed
+make[1]: *** [CMakeFiles/turtlebot2.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

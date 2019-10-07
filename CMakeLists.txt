@@ -16,7 +16,7 @@ find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 
-include_directories(include src/bringup)
+include_directories(include src)
 
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ./lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ./bin)
@@ -31,27 +31,18 @@ add_library(SerialPort        SHARED kobuki/SerialPort.cpp)
 add_library(Translator        SHARED kobuki/Translator.cpp)
 add_library(kobukicwrapper    SHARED kobuki/kobukicwrapper.cpp kobuki/Kobuki_impl.cpp kobuki/Thread.cpp kobuki/libkobuki.cpp kobuki/DockingController.cpp kobuki/KobukiBase.cpp kobuki/SerialPort.cpp kobuki/Transport.cpp kobuki/Translator.cpp)
 
-add_library(PID               SHARED src/bringup/PID.cpp)
-add_library(Turtlebot		  SHARED src/bringup/Turtlebot.cpp)
-ament_target_dependencies(Turtlebot rclcpp std_msgs geometry_msgs nav_msgs sensor_msgs PID)
+add_library(Turtlebot		  SHARED src/Turtlebot.cpp)
+ament_target_dependencies(Turtlebot rclcpp std_msgs geometry_msgs nav_msgs sensor_msgs)
 
-add_executable(turtlebot2 src/bringup/turtlebot2.cpp src/bringup/PID.cpp src/bringup/Turtlebot.cpp kobuki/DockingController.cpp kobuki/Kobuki_impl.cpp kobuki/Thread.cpp kobuki/Transport.cpp kobuki/libkobuki.cpp kobuki/KobukiBase.cpp kobuki/SerialPort.cpp kobuki/Translator.cpp)
+add_executable(turtlebot2 src/turtlebot2.cpp src/Turtlebot.cpp kobuki/DockingController.cpp kobuki/Kobuki_impl.cpp kobuki/Thread.cpp kobuki/Transport.cpp kobuki/libkobuki.cpp kobuki/KobukiBase.cpp kobuki/SerialPort.cpp kobuki/Translator.cpp)
 
-add_executable(teleop_node src/teleop/teleop_node.cpp)
-
-ament_target_dependencies(turtlebot2 rclcpp std_msgs geometry_msgs nav_msgs sensor_msgs PID lib/Turtlebot lib/DockingController lib/Kobuki_impl lib/Thread lib/Transport lib/kobuki lib/KobukiBase lib/SerialPort lib/Translator lib/kobukicwrapper)
-
-ament_target_dependencies(teleop_node rclcpp sensor_msgs geometry_msgs)
+ament_target_dependencies(turtlebot2 rclcpp std_msgs geometry_msgs nav_msgs sensor_msgs lib/Turtlebot lib/DockingController lib/Kobuki_impl lib/Thread lib/Transport lib/kobuki lib/KobukiBase lib/SerialPort lib/Translator lib/kobukicwrapper)
 
 target_include_directories(turtlebot2 PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
 install(TARGETS turtlebot2
-  EXPORT export_${PROJECT_NAME}
-  DESTINATION lib/${PROJECT_NAME})
-
-install(TARGETS teleop_node
   EXPORT export_${PROJECT_NAME}
   DESTINATION lib/${PROJECT_NAME})
 

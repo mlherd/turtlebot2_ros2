@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.001905] (turtlebot_bringup) JobQueued: {'identifier': 'turtlebot_bringup', 'dependencies': OrderedDict()}
+[0.005571] (turtlebot_bringup) JobStarted: {'identifier': 'turtlebot_bringup'}
+[0.080600] (turtlebot_bringup) JobEnded: {'identifier': 'turtlebot_bringup', 'rc': 0}
+[0.083724] (-) EventReactorShutdown: {}

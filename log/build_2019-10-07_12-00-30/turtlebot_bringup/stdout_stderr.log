@@ -1,0 +1,1261 @@
+-- Found ament_cmake: 0.7.3 (/home/turtlebot2/ros2_ws/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 0.7.0 (/home/turtlebot2/ros2_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_adapter: 0.7.6 (/home/turtlebot2/ros2_ws/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rclcpp: 0.7.10 (/home/turtlebot2/ros2_ws/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 0.7.2 (/home/turtlebot2/ros2_ws/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found nav_msgs: 0.7.0 (/home/turtlebot2/ros2_ws/install/nav_msgs/share/nav_msgs/cmake)
+-- Found sensor_msgs: 0.7.0 (/home/turtlebot2/ros2_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.7.10 (/home/turtlebot2/ros2_ws/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/turtlebot2/Desktop/turtlebot2_ros2/include;/home/turtlebot2/Desktop/turtlebot2_ros2/src;$<BUILD_INTERFACE:/home/turtlebot2/Desktop/turtlebot2_ros2/include>
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/turtlebot2/Desktop/turtlebot2_ros2/build/turtlebot_bringup
+[35m[1mScanning dependencies of target DockingController[0m
+[35m[1mScanning dependencies of target Thread[0m
+[35m[1mScanning dependencies of target kobuki[0m
+[35m[1mScanning dependencies of target Transport[0m
+[  3%] [32mBuilding CXX object CMakeFiles/Transport.dir/kobuki/Transport.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/DockingController.dir/kobuki/DockingController.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/kobuki.dir/kobuki/libkobuki.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/Thread.dir/kobuki/Thread.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:[m[K In member function ‘[01m[Kvoid net::ysuga::Thread::Exit(long unsigned int)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:72:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KexitCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Thread::Exit(unsigned long [01;35m[KexitCode[m[K) {
+
+                                 [01;35m[K^~~~~~~~[m[K
+[  8%] [32m[1mLinking CXX shared library lib/libThread.so[0m
+[  8%] Built target Thread
+[35m[1mScanning dependencies of target KobukiBase[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/KobukiBase.dir/kobuki/KobukiBase.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Transport.h:3:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Transport.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:[m[K In constructor ‘[01m[Krt_net::DockingController::DockingController(rt_net::Kobuki_impl*)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:33:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_pKobuki[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     Kobuki_impl *[01;35m[Km_pKobuki[m[K;
+
+                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:29:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krt_net::DockingController::MODE rt_net::DockingController::m_Mode[m[K’ [[01;35m[K-Wreorder[m[K]
+     MODE [01;35m[Km_Mode[m[K;
+
+          [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:31:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_ApproachSide[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_ApproachSide[m[K;
+
+             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:27:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t rt_net::DockingController::m_BumpCount[m[K’ [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_BumpCount[m[K;
+
+             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 12%] [32mBuilding CXX object CMakeFiles/Transport.dir/kobuki/SerialPort.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/kobuki.dir/kobuki/Kobuki_impl.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[ 15%] [32m[1mLinking CXX shared library lib/libDockingController.so[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/KobukiBase.dir/kobuki/SerialPort.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/SerialPort.cpp:31:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[ 17%] Built target DockingController
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[35m[1mScanning dependencies of target SerialPort[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/SerialPort.dir/kobuki/SerialPort.cpp.o[0m
+[ 21%] [32m[1mLinking CXX shared library lib/libTransport.so[0m
+[ 21%] Built target Transport
+[35m[1mScanning dependencies of target Kobuki_impl[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/SerialPort.cpp:31:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+[ 22%] [32mBuilding CXX object CMakeFiles/Kobuki_impl.dir/kobuki/Kobuki_impl.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/SerialPort.cpp:31:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+[ 24%] [32mBuilding CXX object CMakeFiles/kobuki.dir/kobuki/Thread.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/KobukiBase.dir/kobuki/Thread.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:[m[K In member function ‘[01m[Kvoid net::ysuga::Thread::Exit(long unsigned int)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:72:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KexitCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Thread::Exit(unsigned long [01;35m[KexitCode[m[K) {
+
+                                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:[m[K In member function ‘[01m[Kvoid net::ysuga::Thread::Exit(long unsigned int)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:72:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KexitCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Thread::Exit(unsigned long [01;35m[KexitCode[m[K) {
+
+                                 [01;35m[K^~~~~~~~[m[K
+[ 29%] [32m[1mLinking CXX shared library lib/libSerialPort.so[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/kobuki.dir/kobuki/KobukiBase.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/KobukiBase.dir/kobuki/Transport.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[ 31%] Built target SerialPort
+[ 33%] [32mBuilding CXX object CMakeFiles/KobukiBase.dir/kobuki/Translator.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Transport.h:3:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Transport.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onBasicSensorData(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:74:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint8_t [01;35m[Ksize[m[K = packet[1];
+
+           [01;35m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint16_t [01;35m[Ktimestamp[m[K = packet.ushort(2);
+
+            [01;35m[K^~~~~~~~~[m[K
+[ 35%] [32mBuilding CXX object CMakeFiles/Kobuki_impl.dir/kobuki/Thread.cpp.o[0m
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onCliff(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:117:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onCliff(const Packet& [01;35m[Kpacket[m[K)
+
+                                        [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onRawDataOf3AxisGyro(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:127:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onRawDataOf3AxisGyro(const Packet& [01;35m[Kpacket[m[K)
+
+                                                     [01;35m[K^~~~~~[m[K
+[ 36%] [32mBuilding CXX object CMakeFiles/kobuki.dir/kobuki/DockingController.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/kobuki.dir/kobuki/SerialPort.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:[m[K In member function ‘[01m[Kvoid net::ysuga::Thread::Exit(long unsigned int)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:72:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KexitCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Thread::Exit(unsigned long [01;35m[KexitCode[m[K) {
+
+                                 [01;35m[K^~~~~~~~[m[K
+[ 40%] [32mBuilding CXX object CMakeFiles/Kobuki_impl.dir/kobuki/KobukiBase.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+[ 42%] [32m[1mLinking CXX shared library lib/libKobukiBase.so[0m
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/SerialPort.cpp:31:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:[m[K In constructor ‘[01m[Krt_net::DockingController::DockingController(rt_net::Kobuki_impl*)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:33:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_pKobuki[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     Kobuki_impl *[01;35m[Km_pKobuki[m[K;
+
+                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:29:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krt_net::DockingController::MODE rt_net::DockingController::m_Mode[m[K’ [[01;35m[K-Wreorder[m[K]
+     MODE [01;35m[Km_Mode[m[K;
+
+          [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:31:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_ApproachSide[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_ApproachSide[m[K;
+
+             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:27:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t rt_net::DockingController::m_BumpCount[m[K’ [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_BumpCount[m[K;
+
+             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 42%] Built target KobukiBase
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[35m[1mScanning dependencies of target Translator[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/Translator.dir/kobuki/Translator.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[ 45%] [32mBuilding CXX object CMakeFiles/kobuki.dir/kobuki/Translator.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/Kobuki_impl.dir/kobuki/DockingController.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/Kobuki_impl.dir/kobuki/SerialPort.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onBasicSensorData(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:74:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint8_t [01;35m[Ksize[m[K = packet[1];
+
+           [01;35m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint16_t [01;35m[Ktimestamp[m[K = packet.ushort(2);
+
+            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onCliff(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:117:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onCliff(const Packet& [01;35m[Kpacket[m[K)
+
+                                        [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onRawDataOf3AxisGyro(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:127:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onRawDataOf3AxisGyro(const Packet& [01;35m[Kpacket[m[K)
+
+                                                     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onBasicSensorData(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:74:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint8_t [01;35m[Ksize[m[K = packet[1];
+
+           [01;35m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint16_t [01;35m[Ktimestamp[m[K = packet.ushort(2);
+
+            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onCliff(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:117:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onCliff(const Packet& [01;35m[Kpacket[m[K)
+
+                                        [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onRawDataOf3AxisGyro(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:127:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onRawDataOf3AxisGyro(const Packet& [01;35m[Kpacket[m[K)
+
+                                                     [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/SerialPort.cpp:31:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:[m[K In constructor ‘[01m[Krt_net::DockingController::DockingController(rt_net::Kobuki_impl*)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:33:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_pKobuki[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     Kobuki_impl *[01;35m[Km_pKobuki[m[K;
+
+                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:29:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krt_net::DockingController::MODE rt_net::DockingController::m_Mode[m[K’ [[01;35m[K-Wreorder[m[K]
+     MODE [01;35m[Km_Mode[m[K;
+
+          [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:31:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_ApproachSide[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_ApproachSide[m[K;
+
+             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:27:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t rt_net::DockingController::m_BumpCount[m[K’ [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_BumpCount[m[K;
+
+             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX shared library lib/libTranslator.so[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/kobuki.dir/kobuki/Transport.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/Kobuki_impl.dir/kobuki/Translator.cpp.o[0m
+[ 54%] Built target Translator
+[35m[1mScanning dependencies of target kobukicwrapper[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/kobukicwrapper.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Transport.h:3:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Transport.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+[ 57%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/Kobuki_impl.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/kobukicwrapper.cpp:[m[K In function ‘[01m[KRETVAL Kobuki_getDockState(H_KOBUKI, bool, int32_t*)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/kobukicwrapper.cpp:674:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kblock[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ LIBKOBUKI_API RETVAL Kobuki_getDockState(H_KOBUKI kobuki,const bool [01;35m[Kblock[m[K, int32_t *retval){
+
+                                                                     [01;35m[K^~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onBasicSensorData(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:74:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint8_t [01;35m[Ksize[m[K = packet[1];
+
+           [01;35m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint16_t [01;35m[Ktimestamp[m[K = packet.ushort(2);
+
+            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onCliff(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:117:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onCliff(const Packet& [01;35m[Kpacket[m[K)
+
+                                        [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onRawDataOf3AxisGyro(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:127:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onRawDataOf3AxisGyro(const Packet& [01;35m[Kpacket[m[K)
+
+                                                     [01;35m[K^~~~~~[m[K
+[ 59%] [32m[1mLinking CXX shared library lib/libkobuki.so[0m
+[ 59%] Built target kobuki
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[35m[1mScanning dependencies of target Turtlebot[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[ 61%] [32mBuilding CXX object CMakeFiles/Kobuki_impl.dir/kobuki/Transport.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/Turtlebot.dir/src/Turtlebot.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/Thread.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:[m[K In member function ‘[01m[Kvoid net::ysuga::Thread::Exit(long unsigned int)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:72:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KexitCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Thread::Exit(unsigned long [01;35m[KexitCode[m[K) {
+
+                                 [01;35m[K^~~~~~~~[m[K
+[ 66%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/libkobuki.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Transport.h:3:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Transport.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+[ 68%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/DockingController.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library lib/libKobuki_impl.so[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[ 70%] Built target Kobuki_impl
+[ 71%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/KobukiBase.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:[m[K In constructor ‘[01m[Krt_net::DockingController::DockingController(rt_net::Kobuki_impl*)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:33:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_pKobuki[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     Kobuki_impl *[01;35m[Km_pKobuki[m[K;
+
+                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:29:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krt_net::DockingController::MODE rt_net::DockingController::m_Mode[m[K’ [[01;35m[K-Wreorder[m[K]
+     MODE [01;35m[Km_Mode[m[K;
+
+          [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:31:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_ApproachSide[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_ApproachSide[m[K;
+
+             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:27:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t rt_net::DockingController::m_BumpCount[m[K’ [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_BumpCount[m[K;
+
+             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 73%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/SerialPort.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/SerialPort.cpp:31:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+[ 75%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/Transport.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/kobukicwrapper.dir/kobuki/Translator.cpp.o[0m
+[35m[1mScanning dependencies of target turtlebot2[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/src/turtlebot2.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Transport.h:3:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Transport.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onBasicSensorData(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:74:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint8_t [01;35m[Ksize[m[K = packet[1];
+
+           [01;35m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint16_t [01;35m[Ktimestamp[m[K = packet.ushort(2);
+
+            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onCliff(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:117:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onCliff(const Packet& [01;35m[Kpacket[m[K)
+
+                                        [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onRawDataOf3AxisGyro(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:127:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onRawDataOf3AxisGyro(const Packet& [01;35m[Kpacket[m[K)
+
+                                                     [01;35m[K^~~~~~[m[K
+[ 80%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/src/Turtlebot.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library lib/libkobukicwrapper.so[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:[m[K In constructor ‘[01m[KTurtlebot::Turtlebot()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:96:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = Turtlebot::Turtlebot()::<lambda(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)>; Alloc = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::callback_group::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::callback_group::CallbackGroup>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >][m[K’ is deprecated: use create_subscription(const std::string &, const rclcpp::QoS &, CallbackT, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     [01;35m[K)[m[K;
+     [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:139:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_subscription(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:98:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     odom = this->create_publisher<nav_msgs::msg::Odometry>("odom"[01;35m[K)[m[K;
+                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:101:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::Imu_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     inertial = this->create_publisher<sensor_msgs::msg::Imu>("imu"[01;35m[K)[m[K;
+                                                                   [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:104:91:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+ tate = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state"[01;35m[K)[m[K;
+                                                                              [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+[ 82%] Built target kobukicwrapper
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:[m[K In member function ‘[01m[Kvoid Turtlebot::publishInertial()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:121:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  bool [01;35m[Kflag[m[K = (int)InertialAngleRate;
+       [01;35m[K^~~~[m[K
+[ 84%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/kobuki/DockingController.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:4[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:[m[K In constructor ‘[01m[Krt_net::DockingController::DockingController(rt_net::Kobuki_impl*)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:33:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_pKobuki[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     Kobuki_impl *[01;35m[Km_pKobuki[m[K;
+
+                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:29:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krt_net::DockingController::MODE rt_net::DockingController::m_Mode[m[K’ [[01;35m[K-Wreorder[m[K]
+     MODE [01;35m[Km_Mode[m[K;
+
+          [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:31:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Krt_net::DockingController::m_ApproachSide[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_ApproachSide[m[K;
+
+             [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/DockingController.h:27:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint32_t rt_net::DockingController::m_BumpCount[m[K’ [[01;35m[K-Wreorder[m[K]
+     int32_t [01;35m[Km_BumpCount[m[K;
+
+             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/DockingController.cpp:7:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KDockingController[m[K::DockingController(Kobuki_impl *pKobuki) :
+
+ [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[ 85%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/kobuki/Kobuki_impl.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:[m[K In constructor ‘[01m[KTurtlebot::Turtlebot()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:96:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = Turtlebot::Turtlebot()::<lambda(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)>; Alloc = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::callback_group::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::callback_group::CallbackGroup>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >][m[K’ is deprecated: use create_subscription(const std::string &, const rclcpp::QoS &, CallbackT, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     [01;35m[K)[m[K;
+     [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:139:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_subscription(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:98:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     odom = this->create_publisher<nav_msgs::msg::Odometry>("odom"[01;35m[K)[m[K;
+                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:101:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::Imu_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     inertial = this->create_publisher<sensor_msgs::msg::Imu>("imu"[01;35m[K)[m[K;
+                                                                   [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:104:91:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     battery_state = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state"[01;35m[K)[m[K;
+                                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Kobuki_impl.cpp:6[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:[m[K In constructor ‘[01m[KTurtlebot::Turtlebot()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:96:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = Turtlebot::Turtlebot()::<lambda(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)>; Alloc = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::callback_group::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::callback_group::CallbackGroup>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >][m[K’ is deprecated: use create_subscription(const std::string &, const rclcpp::QoS &, CallbackT, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     [01;35m[K)[m[K;
+     [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:139:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_subscription(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:98:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     odom = this->create_publisher<nav_msgs::msg::Odometry>("odom"[01;35m[K)[m[K;
+                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:101:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::Imu_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     inertial = this->create_publisher<sensor_msgs::msg::Imu>("imu"[01;35m[K)[m[K;
+                                                                   [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:104:91:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     battery_state = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state"[01;35m[K)[m[K;
+                                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:[m[K In member function ‘[01m[Kvoid Turtlebot::publishInertial()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:121:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  bool [01;35m[Kflag[m[K = (int)InertialAngleRate;
+       [01;35m[K^~~~[m[K
+[ 87%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/kobuki/Thread.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:[m[K In member function ‘[01m[Kvoid net::ysuga::Thread::Exit(long unsigned int)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Thread.cpp:72:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KexitCode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Thread::Exit(unsigned long [01;35m[KexitCode[m[K) {
+
+                                 [01;35m[K^~~~~~~~[m[K
+[ 89%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/kobuki/Transport.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Transport.h:3:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Transport.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+[ 91%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/kobuki/libkobuki.cpp.o[0m
+[ 92%] [32m[1mLinking CXX shared library lib/libTurtlebot.so[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Kobuki_impl.h:5:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/libkobuki.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[ 94%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/kobuki/KobukiBase.cpp.o[0m
+[ 94%] Built target Turtlebot
+[ 96%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/kobuki/SerialPort.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/KobukiBase.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/SerialPort.cpp:31:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+[ 98%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/kobuki/Translator.cpp.o[0m
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:4:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:109:3:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+  }[01;35m[K;[m[K
+
+   [01;35m[K^[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/Thread.h:110:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+ }[01;35m[K;[m[K
+
+  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:6:0[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/SerialPort.h:165:4:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   }[01;35m[K;[m[K//namespace ysuga
+
+    [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:2:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:[m[K In member function ‘[01m[Kvoid rt_net::KobukiBase::setLED(uint8_t, uint8_t, bool)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/include/KobukiBase.h:115:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNNNNXotemp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       uint8_t [01;35m[KNNNNXotemp[m[K = m_LED;
+
+               [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onBasicSensorData(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:74:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint8_t [01;35m[Ksize[m[K = packet[1];
+
+           [01;35m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:75:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktimestamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   uint16_t [01;35m[Ktimestamp[m[K = packet.ushort(2);
+
+            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onCliff(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:117:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onCliff(const Packet& [01;35m[Kpacket[m[K)
+
+                                        [01;35m[K^~~~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:[m[K In member function ‘[01m[Kvoid rt_net::Translator::onRawDataOf3AxisGyro(const rt_net::Packet&)[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/kobuki/Translator.cpp:127:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ void Translator::onRawDataOf3AxisGyro(const Packet& [01;35m[Kpacket[m[K)
+
+                                                     [01;35m[K^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable bin/turtlebot2[0m
+[100%] Built target turtlebot2
+[ 15%] Built target kobuki
+[ 21%] Built target Transport
+[ 24%] Built target Thread
+[ 28%] Built target DockingController
+[ 38%] Built target KobukiBase
+[ 42%] Built target SerialPort
+[ 56%] Built target Kobuki_impl
+[ 59%] Built target Translator
+[ 77%] Built target kobukicwrapper
+[ 80%] Built target Turtlebot
+[100%] Built target turtlebot2
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/lib/turtlebot_bringup/turtlebot2
+-- Set runtime path of "/home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/lib/turtlebot_bringup/turtlebot2" to ""
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/launch
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/launch/minimal.launch.py
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot_bringup
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot_bringup
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/environment/path.sh
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/local_setup.bash
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/local_setup.sh
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/local_setup.zsh
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/ament_index/resource_index/packages/turtlebot_bringup
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/cmake/turtlebot_bringupConfig.cmake
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/cmake/turtlebot_bringupConfig-version.cmake
+-- Installing: /home/turtlebot2/Desktop/turtlebot2_ros2/install/turtlebot_bringup/share/turtlebot_bringup/package.xml

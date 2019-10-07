@@ -1,0 +1,206 @@
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:[m[K In constructor ‘[01m[KTurtlebot::Turtlebot()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:104:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = Turtlebot::Turtlebot()::<lambda(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)>; Alloc = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::callback_group::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::callback_group::CallbackGroup>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >][m[K’ is deprecated: use create_subscription(const std::string &, const rclcpp::QoS &, CallbackT, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     [01;35m[K)[m[K;
+     [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:139:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_subscription(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:106:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     odom = this->create_publisher<nav_msgs::msg::Odometry>("odom"[01;35m[K)[m[K;
+                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:109:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::Imu_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     inertial = this->create_publisher<sensor_msgs::msg::Imu>("imu"[01;35m[K)[m[K;
+                                                                   [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:112:91:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     battery_state = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state"[01;35m[K)[m[K;
+                                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:115:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::JointState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     joint_state = this->create_publisher<sensor_msgs::msg::JointState>("joint_state"[01;35m[K)[m[K;
+                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/turtlebot2.cpp:1[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:[m[K In constructor ‘[01m[KTurtlebot::Turtlebot()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:104:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = Turtlebot::Turtlebot()::<lambda(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)>; Alloc = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::callback_group::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::callback_group::CallbackGroup>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >][m[K’ is deprecated: use create_subscription(const std::string &, const rclcpp::QoS &, CallbackT, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     [01;35m[K)[m[K;
+     [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:139:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_subscription(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:106:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     odom = this->create_publisher<nav_msgs::msg::Odometry>("odom"[01;35m[K)[m[K;
+                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:109:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::Imu_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     inertial = this->create_publisher<sensor_msgs::msg::Imu>("imu"[01;35m[K)[m[K;
+                                                                   [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:112:91:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+ tate = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state"[01;35m[K)[m[K;
+                                                                              [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:115:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::JointState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+ nt_state = this->create_publisher<sensor_msgs::msg::JointState>("joint_state"[01;35m[K)[m[K;
+                                                                              [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:[m[K In member function ‘[01m[Kvoid Turtlebot::publishInertial()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:139:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  bool [01;35m[Kflag[m[K = (int)InertialAngleRate;
+       [01;35m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:[m[K In constructor ‘[01m[KTurtlebot::Turtlebot()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:104:5:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::callback_group::CallbackGroup::SharedPtr, bool, typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr, std::shared_ptr<PublisherT>) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; CallbackT = Turtlebot::Turtlebot()::<lambda(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)>; Alloc = std::allocator<void>; SubscriptionT = rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::callback_group::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::callback_group::CallbackGroup>; typename rclcpp::message_memory_strategy::MessageMemoryStrategy<typename rclcpp::subscription_traits::has_message_type<CallbackT>::type, AllocatorT>::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >][m[K’ is deprecated: use create_subscription(const std::string &, const rclcpp::QoS &, CallbackT, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     [01;35m[K)[m[K;
+     [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:139:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_subscription(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:106:66:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = nav_msgs::msg::Odometry_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     odom = this->create_publisher<nav_msgs::msg::Odometry>("odom"[01;35m[K)[m[K;
+                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:109:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::Imu_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::Imu_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     inertial = this->create_publisher<sensor_msgs::msg::Imu>("imu"[01;35m[K)[m[K;
+                                                                   [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:112:91:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     battery_state = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state"[01;35m[K)[m[K;
+                                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+In file included from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3:0[m[K:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:115:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rmw_qos_profile_t&, std::shared_ptr<_Up>) [with MessageT = sensor_msgs::msg::JointState_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<sensor_msgs::msg::JointState_<std::allocator<void> > >; std::__cxx11::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t][m[K’ is deprecated: use create_publisher(const std::string &, const rclcpp::QoS &, ...) instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     joint_state = this->create_publisher<sensor_msgs::msg::JointState>("joint_state"[01;35m[K)[m[K;
+                                                                                     [01;35m[K^[m[K
+In file included from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.hpp:2[m[K,
+                 from [01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:3[m[K:
+[01m[K/home/turtlebot2/ros2_ws/install/rclcpp/include/rclcpp/node_impl.hpp:96:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::create_publisher(
+ [01;36m[K^~~~[m[K
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:[m[K In member function ‘[01m[Kvoid Turtlebot::publishInertial()[m[K’:
+[01m[K/home/turtlebot2/Desktop/turtlebot2_ros2/src/Turtlebot.cpp:139:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  bool [01;35m[Kflag[m[K = (int)InertialAngleRate;
+       [01;35m[K^~~~[m[K

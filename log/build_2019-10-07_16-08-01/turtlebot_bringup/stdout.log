@@ -1,0 +1,18 @@
+[ 15%] Built target kobuki
+[ 21%] Built target Transport
+[ 24%] Built target Thread
+[ 28%] Built target DockingController
+[ 31%] Built target SerialPort
+[ 45%] Built target Kobuki_impl
+[ 56%] Built target KobukiBase
+[ 59%] Built target Translator
+[35m[1mScanning dependencies of target Turtlebot[0m
+[35m[1mScanning dependencies of target turtlebot2[0m
+[ 77%] Built target kobukicwrapper
+[ 78%] [32mBuilding CXX object CMakeFiles/Turtlebot.dir/src/Turtlebot.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/turtlebot2.dir/src/Turtlebot.cpp.o[0m
+CMakeFiles/turtlebot2.dir/build.make:86: recipe for target 'CMakeFiles/turtlebot2.dir/src/Turtlebot.cpp.o' failed
+CMakeFiles/Turtlebot.dir/build.make:62: recipe for target 'CMakeFiles/Turtlebot.dir/src/Turtlebot.cpp.o' failed
+CMakeFiles/Makefile2:432: recipe for target 'CMakeFiles/Turtlebot.dir/all' failed
+CMakeFiles/Makefile2:469: recipe for target 'CMakeFiles/turtlebot2.dir/all' failed
+Makefile:140: recipe for target 'all' failed
