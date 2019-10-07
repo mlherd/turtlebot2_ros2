@@ -1,7 +1,5 @@
 #include <libkobuki.h>
-
 #include <rclcpp/rclcpp.hpp>
-
 #include <std_msgs/msg/string.hpp>
 #include <geometry_msgs/msg/twist.hpp>
 #include <geometry_msgs/msg/quaternion.hpp>
@@ -9,7 +7,6 @@
 #include <sensor_msgs/msg/battery_state.hpp>
 #include <sensor_msgs/msg/imu.hpp>
 #include <builtin_interfaces/msg/time.hpp>
-
 #include "PID.hpp"
 
 using namespace rt_net;
@@ -38,7 +35,7 @@ class Turtlebot : public rclcpp::Node {
 		rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr cmd_vel;
 
 		// init publisher
-		rclcpp::Publisher<sensor_msgs::msg::BatteryState>::SharedPtr battery;
+		rclcpp::Publisher<sensor_msgs::msg::BatteryState>::SharedPtr battery_state;
 		rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr odom;
 		rclcpp::Publisher<sensor_msgs::msg::Imu>::SharedPtr inertial;
 		
@@ -47,6 +44,9 @@ class Turtlebot : public rclcpp::Node {
 
 		// init timer for inertial
 		rclcpp::TimerBase::SharedPtr inertial_timer;
+
+		// init timer for inertial
+		rclcpp::TimerBase::SharedPtr battery_state_timer;
 
 		// now position
 		double N_position_x = 0;
@@ -62,7 +62,7 @@ class Turtlebot : public rclcpp::Node {
 		double millisec;
 
 		// check Wheel Drop
-		void checkWheelDrop();
+		bool checkWheelDrop();
 
 		// translate_coordinate
         geometry_msgs::msg::Quaternion translateCoordinate(double x, double y, double z);
@@ -78,6 +78,9 @@ class Turtlebot : public rclcpp::Node {
 
 		// publish inertial
 		void publishInertial();
+
+		// publish inertial
+		void publishBatteryState();
 
 		// Quality of Service
 		rmw_qos_profile_t odom_qos_profile = rmw_qos_profile_sensor_data;
@@ -97,8 +100,11 @@ class Turtlebot : public rclcpp::Node {
 
 				odom = this->create_publisher<nav_msgs::msg::Odometry>("odom");
 				odom_timer = this->create_wall_timer(20ms, bind(&Turtlebot::publishOdometry, this));
-				
+
 				inertial = this->create_publisher<sensor_msgs::msg::Imu>("imu");
 				inertial_timer = this->create_wall_timer(20ms, bind(&Turtlebot::publishInertial, this));
+
+				battery_state = this->create_publisher<sensor_msgs::msg::BatteryState>("battery_state");
+				battery_state_timer = this->create_wall_timer(20ms, bind(&Turtlebot::publishBatteryState, this));
 			}
 };

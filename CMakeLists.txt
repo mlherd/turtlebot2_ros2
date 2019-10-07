@@ -33,7 +33,7 @@ add_library(kobukicwrapper    SHARED kobuki/kobukicwrapper.cpp kobuki/Kobuki_imp
 
 add_library(PID               SHARED src/bringup/PID.cpp)
 add_library(Turtlebot		  SHARED src/bringup/Turtlebot.cpp)
-ament_target_dependencies(Turtlebot rclcpp PID)
+ament_target_dependencies(Turtlebot rclcpp std_msgs geometry_msgs nav_msgs sensor_msgs PID)
 
 add_executable(turtlebot2 src/bringup/turtlebot2.cpp src/bringup/PID.cpp src/bringup/Turtlebot.cpp kobuki/DockingController.cpp kobuki/Kobuki_impl.cpp kobuki/Thread.cpp kobuki/Transport.cpp kobuki/libkobuki.cpp kobuki/KobukiBase.cpp kobuki/SerialPort.cpp kobuki/Translator.cpp)
 
